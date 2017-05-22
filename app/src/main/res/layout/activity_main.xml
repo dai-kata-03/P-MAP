@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.techacademy.katahara.daisuke.p_map.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lang_button"
+        android:layout_marginTop="23dp"
+        android:text="Mapping Your Photo!!"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_state"
+        android:text="Login"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/button_state"
+        android:text="Upload Photos"
+        android:layout_below="@+id/login_button"
+        android:layout_alignStart="@+id/login_button" />
+
+    <Button
+        android:id="@+id/photo_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/button_state"
+        android:text="Photo"
+        android:layout_below="@+id/upload_button"
+        android:layout_alignStart="@+id/upload_button" />
+
+    <Button
+        android:id="@+id/album_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/button_state"
+        android:text="Photo Book"
+        android:layout_below="@+id/photo_button"
+        android:layout_alignStart="@+id/photo_button" />
+
+    <Button
+        android:id="@+id/lang_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EN / JP"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
