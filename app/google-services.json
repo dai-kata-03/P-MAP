@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "262418929766",
+    "firebase_url": "https://p-map-bd058.firebaseio.com",
+    "project_id": "p-map-bd058",
+    "storage_bucket": "p-map-bd058.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262418929766:android:155e67791e2ed910",
+        "android_client_info": {
+          "package_name": "jp.techacademy.katahara.daisuke.p_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262418929766-0233opnqbeioir2nv0kj9okpt63s1fj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChDfm8QENdllrCdLxeh3D9an7sX8PBVB4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
